@@ -5,7 +5,7 @@ Akmod version of https://github.com/strongtz/i915-sriov-dkms to allow installati
 Add the copr repository and install:
 ## Fedora Workstation:
 ```
-dnf copr enable sihawken/akmods
+dnf copr enable Matte23/akmods
 dnf install akmod-i915-sriov
 akmods --force
 depmod -a
